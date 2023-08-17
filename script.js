@@ -174,7 +174,7 @@ document.addEventListener("keyup", (e) => {
 });
 
 // generate an on screen keyboard
-document.querySelector("keyboard-cont").addEventListener("click", (e) => {
+document.querySelector("#keyboard-cont").addEventListener("click", (e) => {
     const target = e.target;
 
     if (!target.classList.contains("keyboard-button")) {
