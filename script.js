@@ -7,7 +7,13 @@ let nextLetter = 0;
 let rightGuessString = WORDS[Math.floor(Math.random() * WORDS.length)];
 console.log(rightGuessString);
 
-alert("Wordle game \n1.You get 6 guesses to find a 5 letter word \n2.If the box turns green then the letter is in the correct position \n3.If the box turns yellow then the letter is inside of the word but in the wrong position \n4.If the box turns grey then the letter is not inside the word \n5.Goodluck😄")
+
+toastr.success("Goodluck😄")
+toastr.success("If the box turns gray then the letter is not inside the word")
+toastr.success("If the box turns yellow then the letter is inside of the word but in the wrong position")
+toastr.success("You get 6 guesses to find a 5 letter word \n2.If the box turns green then the letter is in the correct position")
+toastr.success("Wordle game")
+
 
 function createBoard() {
     let board = document.querySelector("#game-board");
