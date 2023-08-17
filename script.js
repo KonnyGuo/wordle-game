@@ -11,7 +11,8 @@ console.log(rightGuessString);
 toastr.success("Goodluck😄")
 toastr.success("If the box turns gray then the letter is not inside the word")
 toastr.success("If the box turns yellow then the letter is inside of the word but in the wrong position")
-toastr.success("You get 6 guesses to find a 5 letter word \n2.If the box turns green then the letter is in the correct position")
+toastr.success("If the box turns green then the letter is in the correct position")
+toastr.success("You get 6 guesses to find a 5 letter word")
 toastr.success("Wordle game")
 
 
